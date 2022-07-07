@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root{
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --nav-color: darksalmon;
+    --nav-selected: hsl(15, 80%, 60%);
+    --body-color: antiquewhite;
+}
+
+body{
+    background-color: var(--body-color);
+    margin: 0;
+}
+
+.nav-bar{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    column-gap: 0px;
+    background-color:var(--nav-color);
+    list-style: none;
+    height: 40px;
+    margin: 1rem 0px;
+    padding: 0;
+}
+
+.nav-bar li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+}
+
+.nav-bar li:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.nav-bar .selected{
+    background-color: var(--nav-selected);
+}
+
+.main{
+    width: 400px;
+    margin: auto;
+    display: grid;  /*bc of this, margin between nav and title no longer collapses*/
+    row-gap: 20px; 
+}
+
+.main h1{
+    margin-top: 30px;
+}
+
+.hours p{
+    margin: 7px 0px;
+}
+
+.schedule{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-rows: max-content max-content;
+    column-gap: 20px;
+}
+
