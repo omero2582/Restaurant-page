@@ -1,6 +1,6 @@
 const Home = () => {
     const main = document.createElement('div');
-    main.classList.add('main');
+    main.classList.add('home');
     //const main = document.querySelector('.main');
 
     const clear = ()  =>{

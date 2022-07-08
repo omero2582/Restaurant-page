@@ -1,14 +1,16 @@
 import './style.css';
 import Home from './home';
 import Menu from './menu';
+import Contact from './contact';
 
 let home = Home();
 let menu = Menu ();
+let contact = Contact();
 //cache
 const content = document.querySelector('#content');
-const homeTab = document.querySelector('.home');
-const menuTab = document.querySelector('.menu');
-const contactTab = document.querySelector('.contact');
+const homeTab = document.querySelector('.home-tab');
+const menuTab = document.querySelector('.menu-tab');
+const contactTab = document.querySelector('.contact-tab');
 const navBar = Array.from(document.querySelectorAll('.nav-bar li'));
 console.log(navBar);
 
@@ -31,6 +33,13 @@ const renderMenu = () =>{
     content.appendChild(menu.renderAll());
 }
 
+const renderContact = () =>{
+    clear();
+    unselectNavBar();
+    contactTab.classList.add('selected');
+    content.appendChild(contact.renderAll());
+}
+
 const unselectNavBar= () => {
     navBar.forEach( navLi => navLi.classList.remove('selected'));
 }
@@ -38,6 +47,9 @@ const unselectNavBar= () => {
 
 homeTab.addEventListener('click', renderHome);
 menuTab.addEventListener('click', renderMenu);
+contactTab.addEventListener('click', renderContact);
+
+renderContact();
 
 
 //add navBar 'selected', and clear whatever was selected before
