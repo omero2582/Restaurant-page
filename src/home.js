@@ -1,5 +1,7 @@
 const Home = () => {
-    const main = document.querySelector('.main');
+    const main = document.createElement('div');
+    main.classList.add('main');
+    //const main = document.querySelector('.main');
 
     const clear = ()  =>{
         main.innerHTML = '';
@@ -50,14 +52,6 @@ const Home = () => {
         main.appendChild(hours);
     };
    
-    const renderAll = () => {
-        clear();
-        renderIntro();
-        renderHours();
-        renderLocation();
-        console.log('renderHome');
-    };
-
     const renderLocation = () =>{
         const location = document.createElement('div');
         location.classList.add('location');
@@ -72,7 +66,15 @@ const Home = () => {
         main.appendChild(location);
     };
 
-    renderAll();
+    const renderAll = () => {
+        clear();
+        renderIntro();
+        renderHours();
+        renderLocation();
+        console.log('renderHome');
+        return main;
+    };
+
     
     return {clear, renderAll, renderIntro, renderHours, renderLocation};
 }; 
