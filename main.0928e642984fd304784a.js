@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root{\r\n    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\r\n    --nav-color: darksalmon;\r\n    --nav-selected: hsl(15, 80%, 60%);\r\n    --body-color: antiquewhite;\r\n}\r\n\r\nbody{\r\n    background-color: var(--body-color);\r\n    margin: 0;\r\n}\r\n\r\n.nav-bar{\r\n    display: grid;\r\n    grid-auto-flow: column;\r\n    justify-content: center;\r\n    column-gap: 0px;\r\n    background-color:var(--nav-color);\r\n    list-style: none;\r\n    height: 40px;\r\n    margin: 1rem 0px;\r\n    padding: 0;\r\n}\r\n\r\n.nav-bar li{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    width: 160px;\r\n}\r\n\r\n.nav-bar li:hover{\r\n    cursor: pointer;\r\n    background-color: aquamarine;\r\n}\r\n\r\n.nav-bar .selected{\r\n    background-color: var(--nav-selected);\r\n}\r\n\r\n.main{\r\n    width: 400px;\r\n    margin: auto;\r\n    display: grid;  /*bc of this, margin between nav and title no longer collapses*/\r\n    row-gap: 20px; \r\n}\r\n\r\n.main h1{\r\n    margin-top: 30px;\r\n}\r\n\r\n.hours p{\r\n    margin: 7px 0px;\r\n}\r\n\r\n.schedule{\r\n    display: grid;\r\n    grid-template-columns: max-content max-content;\r\n    grid-template-rows: max-content max-content;\r\n    column-gap: 20px;\r\n}\r\n\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAEA;IACI,mJAAmJ;IACnJ,uBAAuB;IACvB,iCAAiC;IACjC,0BAA0B;AAC9B;;AAEA;IACI,mCAAmC;IACnC,SAAS;AACb;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,eAAe;IACf,iCAAiC;IACjC,gBAAgB;IAChB,YAAY;IACZ,gBAAgB;IAChB,UAAU;AACd;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;IACvB,YAAY;AAChB;;AAEA;IACI,eAAe;IACf,4BAA4B;AAChC;;AAEA;IACI,qCAAqC;AACzC;;AAEA;IACI,YAAY;IACZ,YAAY;IACZ,aAAa,GAAG,+DAA+D;IAC/E,aAAa;AACjB;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,8CAA8C;IAC9C,2CAA2C;IAC3C,gBAAgB;AACpB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');\r\n\r\n:root{\r\n    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\r\n    --nav-color: darksalmon;\r\n    --nav-selected: hsl(15, 80%, 60%);\r\n    --body-color: antiquewhite;\r\n}\r\n\r\nbody{\r\n    background-color: var(--body-color);\r\n    margin: 0;\r\n}\r\n\r\n.nav-bar{\r\n    display: grid;\r\n    grid-auto-flow: column;\r\n    justify-content: center;\r\n    column-gap: 0px;\r\n    background-color:var(--nav-color);\r\n    list-style: none;\r\n    height: 40px;\r\n    margin: 1rem 0px;\r\n    padding: 0;\r\n}\r\n\r\n.nav-bar li{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    width: 160px;\r\n}\r\n\r\n.nav-bar li:hover{\r\n    cursor: pointer;\r\n    background-color: aquamarine;\r\n}\r\n\r\n.nav-bar .selected{\r\n    background-color: var(--nav-selected);\r\n}\r\n\r\n.main{\r\n    width: 400px;\r\n    margin: auto;\r\n    display: grid;  /*bc of this, margin between nav and title no longer collapses*/\r\n    row-gap: 20px; \r\n}\r\n\r\n.main h1{\r\n    margin-top: 30px;\r\n}\r\n\r\n.hours p{\r\n    margin: 7px 0px;\r\n}\r\n\r\n.schedule{\r\n    display: grid;\r\n    grid-template-columns: max-content max-content;\r\n    grid-template-rows: max-content max-content;\r\n    column-gap: 20px;\r\n}\r\n\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root{\r\n    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\r\n    --nav-color: darksalmon;\r\n    --nav-selected: hsl(15, 80%, 60%);\r\n    --body-color: antiquewhite;\r\n}\r\n\r\nbody{\r\n    background-color: var(--body-color);\r\n    margin: 0;\r\n}\r\n\r\n.nav-bar{\r\n    display: grid;\r\n    grid-auto-flow: column;\r\n    justify-content: center;\r\n    column-gap: 0px;\r\n    background-color:var(--nav-color);\r\n    list-style: none;\r\n    height: 40px;\r\n    margin: 1rem 0px;\r\n    padding: 0;\r\n}\r\n\r\n.nav-bar li{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    width: 160px;\r\n}\r\n\r\n.nav-bar li:hover{\r\n    cursor: pointer;\r\n    background-color: aquamarine;\r\n}\r\n\r\n.nav-bar .selected{\r\n    background-color: var(--nav-selected);\r\n}\r\n\r\n.home, .menu, .contact{\r\n    width: 400px;\r\n    margin: auto;\r\n    display: grid;  /*bc of this, margin between nav and title no longer collapses*/\r\n    row-gap: 35px; \r\n}\r\n\r\n.home h1, .menu h1, .contact h1{\r\n    margin-top: 30px;\r\n}\r\n\r\n.home h2{\r\n    margin: 10px 0;\r\n}\r\n\r\n.hours p{\r\n    margin: 7px 0px;\r\n}\r\n\r\n.schedule{\r\n    display: grid;\r\n    grid-template-columns: max-content max-content;\r\n    grid-template-rows: max-content max-content;\r\n    column-gap: 20px;\r\n}\r\n\r\n.menu{\r\n    row-gap: 9px;\r\n}\r\n\r\n.menu .item-name{\r\n    margin: 8px 0px;\r\n    display: inline-block;\r\n}\r\n\r\n.menu p{\r\n    margin: 0;\r\n}\r\n\r\n.menu .items-group{\r\n    display: grid;\r\n    row-gap: 18px;\r\n}\r\n.menu .item{\r\n    display: grid;\r\n    grid-template-columns: 1fr auto;\r\n}\r\n\r\n.menu .item-price{\r\n    justify-self: flex-end;\r\n    align-self: center;\r\n    font-size: 1.05rem;\r\n}\r\n\r\n.menu .item-desc{\r\n    grid-column: 1/-1;\r\n}\r\n\r\n/*need to re-do/think a lil about margins vs taking advantage of grid,\r\nand overall also clean a lil*/", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAEA;IACI,mJAAmJ;IACnJ,uBAAuB;IACvB,iCAAiC;IACjC,0BAA0B;AAC9B;;AAEA;IACI,mCAAmC;IACnC,SAAS;AACb;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,eAAe;IACf,iCAAiC;IACjC,gBAAgB;IAChB,YAAY;IACZ,gBAAgB;IAChB,UAAU;AACd;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;IACvB,YAAY;AAChB;;AAEA;IACI,eAAe;IACf,4BAA4B;AAChC;;AAEA;IACI,qCAAqC;AACzC;;AAEA;IACI,YAAY;IACZ,YAAY;IACZ,aAAa,GAAG,+DAA+D;IAC/E,aAAa;AACjB;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,cAAc;AAClB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,8CAA8C;IAC9C,2CAA2C;IAC3C,gBAAgB;AACpB;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,eAAe;IACf,qBAAqB;AACzB;;AAEA;IACI,SAAS;AACb;;AAEA;IACI,aAAa;IACb,aAAa;AACjB;AACA;IACI,aAAa;IACb,+BAA+B;AACnC;;AAEA;IACI,sBAAsB;IACtB,kBAAkB;IAClB,kBAAkB;AACtB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;6BAC6B","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');\r\n\r\n:root{\r\n    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\r\n    --nav-color: darksalmon;\r\n    --nav-selected: hsl(15, 80%, 60%);\r\n    --body-color: antiquewhite;\r\n}\r\n\r\nbody{\r\n    background-color: var(--body-color);\r\n    margin: 0;\r\n}\r\n\r\n.nav-bar{\r\n    display: grid;\r\n    grid-auto-flow: column;\r\n    justify-content: center;\r\n    column-gap: 0px;\r\n    background-color:var(--nav-color);\r\n    list-style: none;\r\n    height: 40px;\r\n    margin: 1rem 0px;\r\n    padding: 0;\r\n}\r\n\r\n.nav-bar li{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    width: 160px;\r\n}\r\n\r\n.nav-bar li:hover{\r\n    cursor: pointer;\r\n    background-color: aquamarine;\r\n}\r\n\r\n.nav-bar .selected{\r\n    background-color: var(--nav-selected);\r\n}\r\n\r\n.home, .menu, .contact{\r\n    width: 400px;\r\n    margin: auto;\r\n    display: grid;  /*bc of this, margin between nav and title no longer collapses*/\r\n    row-gap: 35px; \r\n}\r\n\r\n.home h1, .menu h1, .contact h1{\r\n    margin-top: 30px;\r\n}\r\n\r\n.home h2{\r\n    margin: 10px 0;\r\n}\r\n\r\n.hours p{\r\n    margin: 7px 0px;\r\n}\r\n\r\n.schedule{\r\n    display: grid;\r\n    grid-template-columns: max-content max-content;\r\n    grid-template-rows: max-content max-content;\r\n    column-gap: 20px;\r\n}\r\n\r\n.menu{\r\n    row-gap: 9px;\r\n}\r\n\r\n.menu .item-name{\r\n    margin: 8px 0px;\r\n    display: inline-block;\r\n}\r\n\r\n.menu p{\r\n    margin: 0;\r\n}\r\n\r\n.menu .items-group{\r\n    display: grid;\r\n    row-gap: 18px;\r\n}\r\n.menu .item{\r\n    display: grid;\r\n    grid-template-columns: 1fr auto;\r\n}\r\n\r\n.menu .item-price{\r\n    justify-self: flex-end;\r\n    align-self: center;\r\n    font-size: 1.05rem;\r\n}\r\n\r\n.menu .item-desc{\r\n    grid-column: 1/-1;\r\n}\r\n\r\n/*need to re-do/think a lil about margins vs taking advantage of grid,\r\nand overall also clean a lil*/"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -531,6 +531,63 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+
+const Contact = () => {
+    const main = document.createElement('div');
+    main.classList.add('contact');
+
+    const clear = () =>{
+        main.innerHTML = '';
+    }
+    const renderContactInfo = () => {
+        const contactInfo = document.createElement('div');
+        contactInfo.classList.add('contactInfo');
+
+        const title = document.createElement('h1');
+        title.textContent = 'Contact';
+        const desc = document.createElement('p');
+        desc.textContent = 'iiomero2582ii@gmail.com';
+        contactInfo.appendChild(title);
+        contactInfo.appendChild(desc);
+        main.appendChild(contactInfo);
+    };
+
+    const renderAll = () => {
+        clear();
+        renderContactInfo();
+        console.log('renderContact');
+        return main;
+    };
+    return {renderContactInfo, renderAll}
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Contact);
+
+//TODO read the contact info from an object that has something like
+/* array = [
+    {
+        title: 'Email',
+        source: 'iiomero2582ii@gmail.com'
+    }
+    {
+        title: 'Youtube',
+        source: 'youtube.com/c/omero2582'
+    }
+]
+*/
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
@@ -543,7 +600,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const Home = () => {
     const main = document.createElement('div');
-    main.classList.add('main');
+    main.classList.add('home');
     //const main = document.querySelector('.main');
 
     const clear = ()  =>{
@@ -640,7 +697,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const Menu =  () =>{
     const main = document.createElement('div');
-    main.classList.add('main');
+    main.classList.add('menu');
 
     let menuItems = {
         Entrees: [
@@ -648,21 +705,25 @@ const Menu =  () =>{
                 name: 'First Menu Item',
                 desc: 'This is a description of the 1st item, \
                 it is currentrly a placeholder. But it is tasty i promise',
+                price: 18,
             },
             {
                 name: 'Second Menu Item',
                 desc: 'This is a description of the 2nd item, \
                 it is currentrly a placeholder. But it is tasty i promise',
+                price: 22,
             },
             {
                 name: 'Third Menu Item',
                 desc: 'This is a description of the 3rd item, \
                 it is currentrly a placeholder. But it is tasty i promise',
+                price: 20,
             },
             {
                 name: 'Fourth Menu Item',
                 desc: 'This is a description of the 4th item, \
                 it is currentrly a placeholder. But it is tasty i promise',
+                price: 21,
             }
         ]
     };
@@ -679,10 +740,13 @@ const Menu =  () =>{
 
     let renderEntrees = () =>{
         const entrees = document.createElement('div');
-        entrees.classList.add('Entrees')
         const title = document.createElement('h2');
         title.textContent = 'Entrees';
+        entrees.classList.add('Entrees');
         entrees.appendChild(title);
+
+        const itemsGroup = document.createElement('div');
+        itemsGroup.classList.add('items-group');
 
         menuItems.Entrees.forEach( item =>{
             const itemDiv = document.createElement('div');
@@ -694,14 +758,19 @@ const Menu =  () =>{
             const desc = document.createElement('p');
             desc.classList.add('item-desc');
             desc.textContent = item.desc;
+            const price = document.createElement('span');
+            price.classList.add('item-price');
+            price.textContent = `$${item.price}`;
+
 
             itemDiv.appendChild(name);
+            itemDiv.appendChild(price);
             itemDiv.appendChild(desc);
-            entrees.appendChild(itemDiv);
+            
+            itemsGroup.appendChild(itemDiv);
         });
 
-        
-        
+        entrees.appendChild(itemsGroup);
         main.appendChild(entrees);
     }
 
@@ -804,17 +873,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home */ "./src/home.js");
 /* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu */ "./src/menu.js");
+/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact */ "./src/contact.js");
+
 
 
 
 
 let home = (0,_home__WEBPACK_IMPORTED_MODULE_1__["default"])();
 let menu = (0,_menu__WEBPACK_IMPORTED_MODULE_2__["default"]) ();
+let contact = (0,_contact__WEBPACK_IMPORTED_MODULE_3__["default"])();
 //cache
 const content = document.querySelector('#content');
-const homeTab = document.querySelector('.home');
-const menuTab = document.querySelector('.menu');
-const contactTab = document.querySelector('.contact');
+const homeTab = document.querySelector('.home-tab');
+const menuTab = document.querySelector('.menu-tab');
+const contactTab = document.querySelector('.contact-tab');
 const navBar = Array.from(document.querySelectorAll('.nav-bar li'));
 console.log(navBar);
 
@@ -837,6 +909,13 @@ const renderMenu = () =>{
     content.appendChild(menu.renderAll());
 }
 
+const renderContact = () =>{
+    clear();
+    unselectNavBar();
+    contactTab.classList.add('selected');
+    content.appendChild(contact.renderAll());
+}
+
 const unselectNavBar= () => {
     navBar.forEach( navLi => navLi.classList.remove('selected'));
 }
@@ -844,6 +923,9 @@ const unselectNavBar= () => {
 
 homeTab.addEventListener('click', renderHome);
 menuTab.addEventListener('click', renderMenu);
+contactTab.addEventListener('click', renderContact);
+
+renderContact();
 
 
 //add navBar 'selected', and clear whatever was selected before
@@ -860,4 +942,4 @@ menuTab.addEventListener('click', renderMenu);
 
 /******/ })()
 ;
-//# sourceMappingURL=main.8dfad93beac9f5b03c70.js.map
+//# sourceMappingURL=main.0928e642984fd304784a.js.map
