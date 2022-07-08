@@ -925,7 +925,7 @@ homeTab.addEventListener('click', renderHome);
 menuTab.addEventListener('click', renderMenu);
 contactTab.addEventListener('click', renderContact);
 
-renderContact();
+renderHome();
 
 
 //add navBar 'selected', and clear whatever was selected before
@@ -942,4 +942,4 @@ renderContact();
 
 /******/ })()
 ;
-//# sourceMappingURL=main.0928e642984fd304784a.js.map
+//# sourceMappingURL=main.7386f2622da70ed2b06b.js.map
