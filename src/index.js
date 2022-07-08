@@ -49,7 +49,7 @@ homeTab.addEventListener('click', renderHome);
 menuTab.addEventListener('click', renderMenu);
 contactTab.addEventListener('click', renderContact);
 
-renderContact();
+renderHome();
 
 
 //add navBar 'selected', and clear whatever was selected before
